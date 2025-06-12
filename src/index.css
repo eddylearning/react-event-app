@@ -54,3 +54,34 @@
 .preview a{
   text-decoration: none !important;
 }
+
+                /** Styles for the event card **/
+.event-card {
+  width: 90%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Title styling */
+.event-card h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+/* Description styling */
+.event-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Design for smaller screens */
+@media screen and (max-width: 768px) {
+  .event-card {
+    width: 100%;
+  }
+}
